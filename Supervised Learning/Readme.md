@@ -42,7 +42,7 @@ to access if the product (bank term deposit) would be ('yes') or not
 
 -   pdays: number of days that passed by after the client was last
     contacted from a previous campaign (numeric; 999 means client was
-    not previously contacted)\
+    not previously contacted)
 
 [**Click here**](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
 to view the full details of the variables in the source page.

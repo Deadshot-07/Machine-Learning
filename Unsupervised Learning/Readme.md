@@ -83,7 +83,7 @@ sharp elbow and hence get the optimum value of k.
 
 ### KOS blog entries
 
-[Elbow Curve for KOS]{.image}
+![KOS](https://drive.google.com/file/d/18YY9rt9opaP5PETeyR6ZMlD-xzslYUjT/view?usp=sharing)
 
 The optimum value of k is 3.
 

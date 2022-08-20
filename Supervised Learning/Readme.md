@@ -1,10 +1,10 @@
----
-author:
-- Rishika Tibrewal, Shreyansh Rastogi
-title: "**Classification Models for Bank Marketing Dataset**"
----
+# **Classification Models for Bank Marketing Dataset**
 
-# Overview
+## Author
+- Rishika Tibrewal (MDS202135)
+- Shreyansh Rastogi (MDS202144)
+
+## Overview
 
 The **Bank Marketing Dataset** from the UCI Machine Learning Repository
 is related with direct marketing campaigns (phone calls) of a Portuguese
@@ -47,12 +47,12 @@ to access if the product (bank term deposit) would be ('yes') or not
 [**Click here**](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
 to view the full details of the variables in the source page.
 
-# Objective
+## Objective
 
 The goal is to predict if the client will subscribe a term deposit
 (variable **y**) using classification models.
 
-# Methodology
+## Methodology
 
 We have built three classifiers for this dataset: **Decision tree**,
 **Naïve Bayes classifie**r, and **Random Forest**, and hence compared
@@ -66,7 +66,7 @@ $$Recall = \frac{TP}{TP+FN}\$$\
 The libraries used are **Pandas, NumPy, Matplotlib, Sklearn, Imblearn,
 time, seaborn, warnings** and **memory_profiler**.
 
-# Data Preprocessing
+## Data Preprocessing
 
 -   Starting with Exploratory Data Analysis on the dataset, we try to
     visualise the categorical columns in all the three models. In
@@ -95,7 +95,7 @@ time, seaborn, warnings** and **memory_profiler**.
     values in **campaign** which are greater than 20 are replaced by the
     mean value.
 
-# Implementation
+## Implementation
 
 -   **Decision Tree:** Hyperparameter tuning is performed to find the
     optimum max_depth and min_samples_split in the tree. Further since,
@@ -116,7 +116,7 @@ time, seaborn, warnings** and **memory_profiler**.
     Bayes models and merged them. We fitted the Gaussian Naïve Bayes on
     these probabilities. The score of this model is about 87.07%.
 
-# Comparison of Measures
+## Comparison of Measures
 
 ::: {.center}
    **Performance Measure**   **Decision Tree**   **Naïve Bayes**   **Random Forest**
@@ -132,7 +132,7 @@ time, seaborn, warnings** and **memory_profiler**.
 here**](https://drive.google.com/drive/folders/1OyzkKjy7UCJ0wfkkDQKBc2BCuInMIrXG?usp=sharing)
 to view the output.
 
-# Conclusion
+## Conclusion
 
 -   Dataset has highly imbalanced data of **'yes'** & **'no'**. Dataset
     has outliers in the columns **campaign** & **pdays** which we

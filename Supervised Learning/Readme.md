@@ -118,15 +118,13 @@ time, seaborn, warnings** and **memory_profiler**.
 
 ## Comparison of Measures
 
-::: {.center}
-   **Performance Measure**   **Decision Tree**   **Naïve Bayes**   **Random Forest**
-  ------------------------- ------------------- ----------------- -------------------
-          Precision                 36%                43%                43%
-          Accuracy                  83%                87%                87%
-           Recall                   64%                46%                58%
-          Time(ms)                  346                306               1260
-         Space(MiB)                 348                294                316
-:::
+ |  **Performance Measure** |  **Decision Tree**|  **Naïve Bayes** |  **Random Forest**
+ |:------------------------:|:-----------------:|:----------------:|:-------------------:
+ |        Precision         |       36%         |      43%         |       43%
+ |        Accuracy          |       83%         |      87%         |       87%
+ |         Recall           |       64%         |      46%         |       58%
+ |        Time(ms)          |       346         |      306         |      1260
+ |       Space(MiB)         |       348         |      294         |       316
 
 [**Click here**](https://drive.google.com/drive/folders/1wmGecimy3Upl26joHUC1R1TUSrMh-uii?usp=sharing)
 to view the output.

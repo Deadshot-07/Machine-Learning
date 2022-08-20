@@ -70,8 +70,7 @@ flattened data.
     100.
 
     -------
-                Logistic Regression  
-    |-----------------------------------------
+                Logistic Regression
     |       Value of k         |   Accuracy
     | -------------------------|--------------
     |            10            |     37%
@@ -99,7 +98,6 @@ flattened data.
         
     -------
                  Neural Network
-    |-------------------------------------
     |       Value of k     |   Accuracy
     | ---------------------|--------------
     |          10          |     36%
@@ -129,23 +127,19 @@ flattened data.
     cluster, we found the image closest to the centroid. Now we have a
     dataset with just 100 labelled instances. We fit the models on these
     centroids.
-
-    ::: {.center}
+    
      |       Model         |    Accuracy  |    Time (s)  |    Space (MiB)
      |---------------------|--------------|--------------|-----------------
      | Logistic Regression |     70%      |     1.6      |      2114
      |   Neural Network    |     71%      |     3.9      |      2114
-    :::
 
 -   We then propagated the labels to all the other instances in the same
     cluster.
 
-    ::: {.center}
      |        Model        |   Accuracy   |   Time (s)   |  Space (MiB)
      |---------------------|--------------|--------------|-----------------
      | Logistic Regression |     69%      |     653      |      2114
      |   Neural Network    |     69%      |     284      |      2114
-    :::
 
 -   We then propagated these labels partially because by propagating to
     the full cluster, we have certainly included some outliers. For the
@@ -153,8 +147,7 @@ flattened data.
     possible accuracy in each model.
 
      -------
-                 Logistic Regression  
-     |----------------------------------------
+                 Logistic Regression
      |     Percentile          |   Accuracy  
      |-------------------------|--------------
      |           20            |    70.85%
@@ -167,7 +160,6 @@ flattened data.
 
      --------
       Neural Network 
-     |------------------------------------
      |      Percentile     |   Accuracy
      |---------------------|--------------
      |         20          |    69.24%

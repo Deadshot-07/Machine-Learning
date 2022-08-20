@@ -69,7 +69,8 @@ flattened data.
     model to the first k data points of the train set). We took k =
     100.
 
-    |            Logistic Regression  
+    -------
+                Logistic Regression  
     |-----------------------------------------
     |       Value of k         |   Accuracy
     | -------------------------|--------------
@@ -95,8 +96,9 @@ flattened data.
     |----------------------------------------
     |    Space: 1076 MiB     
     |    Time: 13 s       
-
-    |           Neural Network
+        
+    -------
+                 Neural Network
     |-------------------------------------
     |       Value of k     |   Accuracy
     | ---------------------|--------------
@@ -150,7 +152,8 @@ flattened data.
     purpose, we try to find the percentile value with the maximum
     possible accuracy in each model.
 
-     |            Logistic Regression  
+     -------
+                 Logistic Regression  
      |----------------------------------------
      |     Percentile          |   Accuracy  
      |-------------------------|--------------
@@ -162,7 +165,8 @@ flattened data.
      |   Space: 2114 MiB    
      |   Time: 1079 s      
 
-     | Neural Network
+     --------
+      Neural Network 
      |------------------------------------
      |      Percentile     |   Accuracy
      |---------------------|--------------

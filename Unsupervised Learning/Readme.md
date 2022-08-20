@@ -82,20 +82,21 @@ We plotted the graph of inertia vs number of cluster points to find a
 sharp elbow and hence get the optimum value of k.
 
 ### KOS blog entries
-
-![KOS](https://drive.google.com/file/d/18YY9rt9opaP5PETeyR6ZMlD-xzslYUjT/view?usp=sharing)
+![Elbow kos](https://user-images.githubusercontent.com/94676910/185742806-2c42b7c8-847b-4063-9e43-2d38800cc2d5.png)
 
 The optimum value of k is 3.
 
 ### NIPS full papers
 
-[Elbow Curve for NIPS]{.image}
+![elbow nips](https://user-images.githubusercontent.com/94676910/185742817-c03c70fd-fb35-46f0-81aa-1cf62a775e7f.png)
+
 
 The optimum value of k is 3.
 
 ### Enron Emails
 
-[Elbow Curve for ENRON]{.image}
+![elbow enron](https://user-images.githubusercontent.com/94676910/185742820-b1b6c243-82e6-42cc-a742-3fadb4dee52f.png)
+
 
 The optimum value of k is 3.
 

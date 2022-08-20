@@ -67,7 +67,7 @@ flattened data.
     model to the first k data points of the train set). We took k =
     100.
 
-       **Logistic Regression**
+     ####  **Logistic Regression**
     |       Value of k         |   Accuracy
     | -------------------------|--------------
     |            10            |     37%

@@ -1,8 +1,8 @@
 # **Classification Models for Bank Marketing Dataset**
 
 ## Author
-- Rishika Tibrewal (MDS202135)
-- Shreyansh Rastogi (MDS202144)
+- Rishika Tibrewal
+- Shreyansh Rastogi
 
 ## Overview
 

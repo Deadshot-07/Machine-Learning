@@ -1,7 +1,7 @@
 ---
 author:
 - Rishika Tibrewal , Shreyansh Rastogi
-title: "**Semi-Supervised Learning on Fashion MNIST**"
+title: "Semi-Supervised Learning on Fashion MNIST"
 ---
 
 # Introduction
@@ -55,7 +55,7 @@ flattened data.
 -   We first applied the standard models on the flattened train set.
 
     ::: {.center}
-            **Model**        **Accuracy**   **Time (s)**   **Space (MiB)**
+            Model              Accuracy       Time (s)        Space (MiB)
       --------------------- -------------- -------------- -----------------
        Logistic Regression       84%            644             1506
          Neural Network          89%            191             1540
@@ -64,14 +64,14 @@ flattened data.
     We observe that the Neural Network outshines the Logistic Regression
     model when we use these models on the entire dataset.
 
--   We found the optimum number of labelled instances, **k** by taking
+-   We found the optimum number of labelled instances, k by taking
     the accuracy of the models into consideration (here, we fitted the
-    model to the first k data points of the train set). We took **k** =
-    **100**.
+    model to the first k data points of the train set). We took k =
+    100.
 
-       **Logistic Regression**  
+       Logistic Regression  
       ------------------------- --------------
-           **Value of k**        **Accuracy**
+            Value of k             Accuracy
                  10                  37%
                  15                  41%
                  20                  43%
@@ -91,12 +91,12 @@ flattened data.
                  90                  68%
                  95                  67%
                  100                 69%
-         **Space:**1076 MiB     
-           **Time:** 13 s       
+         Space: 1076 MiB     
+         Time: 13 s       
 
-       **Neural Network**   
+        Neural Network   
       --------------------- --------------
-         **Value of k**      **Accuracy**
+            Value of k         Accuracy
                10                36%
                15                39%
                20                41%
@@ -116,8 +116,8 @@ flattened data.
                90                70%
                95                72%
                100               72%
-       **Space:** 1374 MiB  
-         **Time:** 63 s     
+        Space: 1374 MiB  
+        Time: 63 s     
 
 -   We first clustered the training set into 100 clusters, then for each
     cluster, we found the image closest to the centroid. Now we have a
@@ -125,7 +125,7 @@ flattened data.
     centroids.
 
     ::: {.center}
-            **Model**        **Accuracy**   **Time (s)**   **Space (MiB)**
+            Model              Accuracy       Time (s)       Space (MiB)
       --------------------- -------------- -------------- -----------------
        Logistic Regression       70%            1.6             2114
          Neural Network          71%            3.9             2114
@@ -135,7 +135,7 @@ flattened data.
     cluster.
 
     ::: {.center}
-            **Model**        **Accuracy**   **Time (s)**   **Space (MiB)**
+              Model            Accuracy       Time (s)      Space (MiB)
       --------------------- -------------- -------------- -----------------
        Logistic Regression       69%            653             2114
          Neural Network          69%            284             2114
@@ -146,29 +146,29 @@ flattened data.
     purpose, we try to find the percentile value with the maximum
     possible accuracy in each model.
 
-       **Logistic Regression**  
+       Logistic Regression  
       ------------------------- --------------
-           **Percentile**        **Accuracy**
+           Percentile              Accuracy  
                  20                 70.85%
                  25                 70.84%
                  50                 69.82%
                  75                 69.42%
-         **Space:** 2114 MiB    
-          **Time:** 1079 s      
+         Space: 2114 MiB    
+         Time: 1079 s      
 
-       **Neural Network**   
+       Neural Network
       --------------------- --------------
-         **Percentile**      **Accuracy**
+            Percentile         Accuracy
                20               69.24%
                25               69.05%
                50               68.46%
                75               68.79%
-       **Space:** 2114 MiB  
-         **Time:** 737 s    
+       Space: 2114 MiB  
+       Time: 737 s    
 
     \
     We choose the percentile value to be **20** which gave us an
-    accuracy of about **71%** in Logistic Regression & **69%** in Neural
+    accuracy of about 71% in Logistic Regression & 69% in Neural
     Network.
 
 # Conclusion

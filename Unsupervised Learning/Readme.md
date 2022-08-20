@@ -102,7 +102,7 @@ The optimum value of k is 3.
  |              **Measure**            | **KOS** | **NIPS** |**Enron**
  |-------------------------------------|---------|----------|-----------
  |         No. of Clusters (K)         |    3    |    3     |     3
- |        Time for K-Means(s)          |   30    |    11    |    37
- | Time for Jaccard distance matrix(s) |   59    |    20    |    283
- |             Space(MiB)              |  1177   |   1550   |   2823
+ |        Time for K-Means (s)         |   30    |    11    |    37
+ | Time for Jaccard distance matrix (s)|   59    |    20    |    283
+ |             Space (MiB)             |  1177   |   1550   |   2823
 

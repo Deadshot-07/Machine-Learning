@@ -3,8 +3,8 @@
 # **Bag of Words Clustering using Jaccard Index**
 
 ## Author
-- Rishika Tibrewal
-- Shreyansh Rastogi
+- Rishika Tibrewal (MDS202135)
+- Shreyansh Rastogi (MDS202144)
 
 ## Overview
 

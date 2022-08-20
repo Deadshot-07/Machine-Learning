@@ -1,8 +1,8 @@
----
-author:
+
+# Author:
 - Rishika Tibrewal , Shreyansh Rastogi
-title: "**Bag of Words Clustering using Jaccard Index**"
----
+# Title: "**Bag of Words Clustering using Jaccard Index**"
+
 
 # Overview
 
@@ -99,11 +99,11 @@ The optimum value of k is 3.
 
 # Comparison of Measures
 
-::: {.center}
+---
                **Measure**               **KOS**   **NIPS**   **Enron**
   ------------------------------------- --------- ---------- -----------
            No. of Clusters (K)              3         3           3
            Time for K-Means(s)             30         11         37
    Time for Jaccard distance matrix(s)     59         20         283
                Space(MiB)                 1177       1550       2823
-:::
+---

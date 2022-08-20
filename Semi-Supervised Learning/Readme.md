@@ -54,12 +54,12 @@ flattened data.
 
 -   We first applied the standard models on the flattened train set.
 
-    ::: {.center}
+    <p align='center'>
             Model              Accuracy       Time (s)        Space (MiB)
       --------------------- -------------- -------------- -----------------
        Logistic Regression       84%            644             1506
          Neural Network          89%            191             1540
-    :::
+    </p>
 
     We observe that the Neural Network outshines the Logistic Regression
     model when we use these models on the entire dataset.

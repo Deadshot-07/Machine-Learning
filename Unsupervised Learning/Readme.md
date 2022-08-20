@@ -1,8 +1,9 @@
 
+
+#"**Bag of Words Clustering using Jaccard Index**"
+
 # Author:
 - Rishika Tibrewal , Shreyansh Rastogi
-# Title: "**Bag of Words Clustering using Jaccard Index**"
-
 
 # Overview
 

@@ -2,11 +2,11 @@
 
 # **Bag of Words Clustering using Jaccard Index**
 
-# Author
+## Author
 - Rishika Tibrewal
 - Shreyansh Rastogi
 
-# Overview
+## Overview
 
 In each of the text collections **KOS blog entries**, **NIPS full
 papers**, and **Enron Emails**, each document is summarized as a bag of
@@ -19,13 +19,13 @@ collection.\
 [**Click here**](https://archive.ics.uci.edu/ml/datasets/Bag+of+Words)
 to go to the UCI repository.
 
-# Objective
+## Objective
 
 The task is to cluster the documents in these datasets via **K-means
 clustering** for different values of K and determine an optimum value of
 K.
 
-# Methodology
+## Methodology
 
 We used **Jaccard Index** as a similarity measure between two documents
 based on the overlap of words present in both documents.
@@ -39,7 +39,7 @@ closest cluster centroid).\
 The libraries used are **NumPy**, **Pandas**, **Matplotlib**, **time**,
 **memory_profiler**, and **random**.
 
-# Implementation
+## Implementation
 
 -   We uploaded the .txt files (skipping the first 3 lines) to create a
     dataframe with column names DocID, WordID, and Count.
@@ -76,30 +76,30 @@ The libraries used are **NumPy**, **Pandas**, **Matplotlib**, **time**,
 
 -   Using PCA, we tried to visualise the clusters in 3D.
 
-# Results
+## Results
 
 We plotted the graph of inertia vs number of cluster points to find a
 sharp elbow and hence get the optimum value of k.
 
-## KOS blog entries
+### KOS blog entries
 
 [Elbow Curve for KOS]{.image}
 
 The optimum value of k is 3.
 
-## NIPS full papers
+### NIPS full papers
 
 [Elbow Curve for NIPS]{.image}
 
 The optimum value of k is 3.
 
-## Enron Emails
+### Enron Emails
 
 [Elbow Curve for ENRON]{.image}
 
 The optimum value of k is 3.
 
-# Comparison of Measures
+## Comparison of Measures
 
  |              **Measure**            | **KOS** | **NIPS** |**Enron**
  |-------------------------------------|---------|----------|-----------

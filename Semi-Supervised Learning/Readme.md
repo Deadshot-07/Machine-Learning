@@ -1,10 +1,9 @@
----
-author:
-- Rishika Tibrewal , Shreyansh Rastogi
-title: "Semi-Supervised Learning on Fashion MNIST"
----
+# Semi-Supervised Learning on Fashion-MNIST Data
 
-# Introduction
+## Author
+- Rishika Tibrewal (MDS202135)
+- Shreyansh Rastogi (MDS202144)
+## Introduction
 
 Fashion-MNIST is a dataset of Zalando's article images consisting of a
 training set of 60,000 examples and a test set of 10,000 examples. Each
@@ -16,13 +15,13 @@ example is assigned to one of the following labels: **T-shirt/top**,
 **Trouser**, **Pullover**, **Dress**, **Coat**, **Sandal**, **Shirt**,
 **Sneaker**, **Bag**, and **Ankle Boot**.
 
-# Objective
+## Objective
 
 We will be using K-Means clustering to identify a small subset of
 labelled images to seed the classification process and increase the
 accuracy.
 
-# Methodology
+## Methodology
 
 The idea behind this project is to use K-Means Clustering for
 semi-supervised learning, where we have plenty of unlabelled instances
@@ -45,7 +44,7 @@ compare the accuracies in each case.
 The libraries used are **NumPy**, **tensorflow**, **sklearn**,
 **Matplotlib**, **time**, **memory_profiler**, and **warnings**.
 
-# Implementation
+## Implementation
 
 We imported the Fashion MNIST dataset from keras. Since each datapoint
 was a 28x28 grayscale image, we flattened it so that we can use it to
@@ -171,7 +170,7 @@ flattened data.
     accuracy of about 71% in Logistic Regression & 69% in Neural
     Network.
 
-# Conclusion
+## Conclusion
 
 -   We observe that when the models were run on the entire training set,
     the time required was significantly large when compared to the ones

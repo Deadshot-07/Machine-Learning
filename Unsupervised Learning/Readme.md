@@ -1,6 +1,6 @@
 
 
-# *Document Classification using K-Means Clustering (Jaccard Index)*
+# Bag of Words Clustering using Jaccard Index
 
 ## Author
 - Rishika Tibrewal

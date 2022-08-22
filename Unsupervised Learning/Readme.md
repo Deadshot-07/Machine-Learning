@@ -1,6 +1,6 @@
 
 
-# Bag of Words Clustering using Jaccard Index
+# Document Clustering using Jaccard Index
 
 ## Author
 - Rishika Tibrewal
